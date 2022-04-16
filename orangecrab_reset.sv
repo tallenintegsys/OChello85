@@ -20,6 +20,6 @@ module orangecrab_reset (
 			reset_sr <= 1'b0;
 	end
 	
-	assign nreset_out = {reset_sr};
+	assign nreset_out = reset_sr;
 
 endmodule

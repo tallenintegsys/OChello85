@@ -15,6 +15,7 @@ module top (
 );
     // Create a 27 bit register
     logic [26:0] counter = 0;
+    //assign rst_n = usr_btn;
 
     // Every positive edge increment register by 1
     always @(posedge clk48) begin
